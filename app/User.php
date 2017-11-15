@@ -1,6 +1,6 @@
 <?php
 
-namespace App;
+namespace SundaySim;
 
 use Illuminate\Notifications\Notifiable;
 use Illuminate\Foundation\Auth\User as Authenticatable;
