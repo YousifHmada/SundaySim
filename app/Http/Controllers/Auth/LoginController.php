@@ -33,7 +33,7 @@ class LoginController extends Controller
      */
     public function __construct()
     {
-        $this->redirectAfterLogout = route('auth.login');
+        $this->redirectAfterLogout = '/hello';
         $this->redirectTo = route('backend.dashboard');
         $this->middleware('guest')->except('logout');
     }

@@ -2,19 +2,19 @@
 
 @section('title', 'login')
 
-@section('header', 'welcome, please login')
+@section('heading', 'welcome, please login')
 
 @section('content')
-    {!! form::open() !!}
+    {!! Form::open() !!}
 	    <div class="form-group">
-	    	{!! form::label('email') !!}
-	    	{!! form::text('email', null, ['class'=>'form-control']) !!}
+	    	{!! Form::label('email') !!}
+	    	{!! Form::text('email', null, ['class'=>'form-control']) !!}
 	    </div>
 	    <div class="form-group">
-	    	{!! form::label('password') !!}
-	    	{!! form::password('password', ['class'=>'form-control']) !!}
+	    	{!! Form::label('password') !!}
+	    	{!! Form::password('password', ['class'=>'form-control']) !!}
 	    </div>
-	    {!! form::submit('login', ['class'=>'btn btn-primary']) !!}
+	    {!! Form::submit('login', ['class'=>'btn btn-primary']) !!}
     	<a href="#" class="small">forget password</a>
-    {!! form::close() !!}
+    {!! Form::close() !!}
 @endsection

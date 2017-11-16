@@ -17,7 +17,7 @@
 			</ul>
 			<ul class="nav navbar-nav navbar-right">
 				<li><span class="navbar-text">Hello, Yousif</span></li>
-				<li><a href="#">logout</a></li>
+				<li><a href="{{ route('auth.logout') }}">logout</a></li>
 			</ul>
 		</div>
 	</nav>
